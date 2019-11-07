@@ -1,5 +1,5 @@
 {
-    "description": "Auto Fullscreen for Firefox",
+  "description": "Open all Firefox windows in full screen mode",
     "manifest_version": 2,
     "name": "AutoFullscreen",
     "version": "2.0",
