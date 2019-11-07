@@ -10,8 +10,8 @@
         ]
     },
     "icons": {
-        "48": "icons/fullscreen_black_48x48.png",
-        "96": "icons/fullscreen_black_96x96.png"
+      "64": "icons/fullscreen_64x64.png",
+      "128": "icons/fullscreen_128x128.png"
     },
     "applications": {
         "gecko": {
