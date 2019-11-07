@@ -1,21 +1,21 @@
 {
   "description": "Open all Firefox windows in full screen mode",
-    "manifest_version": 2,
-    "name": "AutoFullscreen",
-    "version": "2.0",
-    "homepage_url": "https://github.com/Insiderser/AutoFullscreen",
-    "background": {
-        "scripts": [
-            "startup.js"
-        ]
-    },
-    "icons": {
-      "64": "icons/fullscreen_64x64.png",
-      "128": "icons/fullscreen_128x128.png"
-    },
-    "applications": {
-        "gecko": {
-            "strict_min_version": "48.0"
-        }
+  "manifest_version": 2,
+  "name": "AutoFullscreen",
+  "version": "2.0.2",
+  "homepage_url": "https://github.com/Insiderser/AutoFullscreen",
+  "background": {
+    "scripts": [
+      "startup.js"
+    ]
+  },
+  "icons": {
+    "64": "icons/fullscreen_64x64.png",
+    "128": "icons/fullscreen_128x128.png"
+  },
+  "applications": {
+    "gecko": {
+      "strict_min_version": "48.0"
     }
+  }
 }
