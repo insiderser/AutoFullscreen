@@ -30,7 +30,7 @@ function updateWindow(window) {
 
 console.log(`AutoFullscreen Running`);
 browser.windows.getAll().then((windowInfoArray) => {
-    for (currentWindow of windowInfoArray) {
+    for (const currentWindow of windowInfoArray) {
         updateWindow(currentWindow)
     }
 }, onError);
