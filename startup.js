@@ -37,5 +37,5 @@ browser.windows.getAll().then((windowInfoArray) => {
 
 browser.windows.onCreated.addListener((window) => {
     console.log("New window: " + window.id);
-    setTimeout(() => updateWindow(window), 10)
+    setTimeout(() => updateWindow(window), 50)
 });
